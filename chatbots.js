@@ -1,6 +1,9 @@
 const Chatbot = {
   defaultResponses: {
-    'hello hi halo hai': `Halo! Ada yang bisa saya bantu?`,
+    'hello': `Halo! Ada yang bisa saya bantu?`,
+    'hi': `Halo! Ada yang bisa saya bantu?`,
+    'halo': `Halo! Ada yang bisa saya bantu?`,
+    'hai': `Halo! Ada yang bisa saya bantu?`,
     'how are you apa kabar': `Saya baik! Ada yang bisa saya bantu?`,
     'flip a coin lempar koin': function () {
       const randomNumber = Math.random();
